@@ -8,6 +8,10 @@ private float solution(){
     return 0;
 }
     public static void main(String[] args) {
+        Person man = new Person(100, 12);
+        Student guy = new Student(123, 17,2);
+        guy.tell();
+        man.say(" Guy!\n");
         Scanner scan = new Scanner(System.in);
             int first, second;
             boolean isTrue = false;
