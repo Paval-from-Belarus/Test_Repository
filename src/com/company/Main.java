@@ -3,7 +3,7 @@ import java.lang.String;
 import java.util.Random;
 import java.util.Scanner;
 public class Main {
-private float solution(){
+private final float solution(){
 
     return 0;
 }
